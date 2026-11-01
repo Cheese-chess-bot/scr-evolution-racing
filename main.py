@@ -4,6 +4,8 @@ import argparse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from brain import EvoBrain #the main brain😎
+from scr import SCRClient, sensor #forgot this btw
+#well before this fix we got track recognition working so its 4 - 1 ✌️
 
 
 def detect_track(torcs_dir, mode):
