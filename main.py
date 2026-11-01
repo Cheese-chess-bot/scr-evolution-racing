@@ -1,6 +1,6 @@
 #this should detect the torcs race config and the ummm yah seperate or pre(or just trained)model
 
-import argarse
+import argparse
 import xml.etree.ElementTree as ET
 from pathlib import path
 from brain import EvoBrain #the main brain😎
