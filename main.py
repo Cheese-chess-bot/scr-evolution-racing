@@ -2,7 +2,7 @@
 
 import argparse
 import xml.etree.ElementTree as ET
-from pathlib import path
+from pathlib import Path
 from brain import EvoBrain #the main brain😎
 
 
