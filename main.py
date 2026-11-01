@@ -46,7 +46,7 @@ def run(args):
     print("Ctrl + C to kill mini max(maybe)")
 
     if args.track == "auto":
-        track = detect_track(args.torchs_dir, args.race_mode)
+        track = detect_track(args.torcs_dir, args.race_mode)
         if not track:
             raise SystemExit(
                 "Could not detect track. Supply --torcs-dir "
